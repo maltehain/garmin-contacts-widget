@@ -1,0 +1,32 @@
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <string id="AppName">Widget de Contactos</string>
+    <string id="configureContactsHint">Utiliza la configuración del widget en Garmin Connect IQ para configurar los contactos</string>
+    <string id="groupContact0Title">Contacto 0</string>
+    <string id="groupContact0Description">Configura el nombre y el número móvil para el contacto 0</string>
+    <string id="groupContact1Title">Contacto 1</string>
+    <string id="groupContact1Description">Configura el nombre y el número móvil para el contacto 1</string>
+    <string id="groupContact2Title">Contacto 2</string>
+    <string id="groupContact2Description">Configura el nombre y el número móvil para el contacto 2</string>
+    <string id="groupContact3Title">Contacto 3</string>
+    <string id="groupContact3Description">Configura el nombre y el número móvil para el contacto 3</string>
+    <string id="groupContact4Title">Contacto 4</string>
+    <string id="groupContact4Description">Configura el nombre y el número móvil para el contacto 4</string>
+    <string id="groupContact5Title">Contacto 5</string>
+    <string id="groupContact5Description">Configura el nombre y el número móvil para el contacto 5</string>
+    <string id="groupContact6Title">Contacto 6</string>
+    <string id="groupContact6Description">Configura el nombre y el número móvil para el contacto 6</string>
+    <string id="groupContact7Title">Contacto 7</string>
+    <string id="groupContact7Description">Configura el nombre y el número móvil para el contacto 7</string>
+    <string id="groupContact8Title">Contacto 8</string>
+    <string id="groupContact8Description">Configura el nombre y el número móvil para el contacto 8</string>
+    <string id="groupContact9Title">Contacto 9</string>
+    <string id="groupContact9Description">Configura el nombre y el número móvil para el contacto 9</string>
+    <string id="groupContact10Title">Contacto 10</string>
+    <string id="groupContact10Description">Configura el nombre y el número móvil para el contacto 10</string>
+    <string id="contactNameTitle">Nombre del contacto</string>
+    <string id="contactNamePrompt">Introduce el nombre del contacto</string>
+    <string id="contactNameError">Nombre inválido</string>
+    <string id="contactMobileNumberTitle">Número móvil del contacto</string>
+    <string id="contactMobileNumberPrompt">Introduce el número móvil del contacto</string>
+    <string id="contactMobileNumberError">Número móvil inválido</string>
+</strings>

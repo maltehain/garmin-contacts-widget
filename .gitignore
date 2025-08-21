@@ -1,0 +1,37 @@
+# Monkey C / Garmin Connect IQ project .gitignore
+
+# Compiled Monkey C app files
+*.prg
+*.iq
+
+# Build output directories
+/bin/
+/build/
+/output/
+gen/
+internal-mir/
+mir/
+
+# Eclipse/VS Code/IDE files
+*.launch
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.DS_Store
+.idea/
+*.iml
+
+# Test output
+/test-output/
+
+
+# Garmin device logs
+*.fit
+
+# User-specific files
+*.user
+*.workspace
+
+#

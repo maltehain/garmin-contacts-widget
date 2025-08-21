@@ -1,0 +1,32 @@
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <string id="AppName">Contacts Widget</string>
+    <string id="configureContactsHint">Use widget settings in Garmin Connect IQ to configure contacts</string>
+    <string id="groupContact0Title">Contact 0</string>
+    <string id="groupContact0Description">Configure name and mobile number for contact 0</string>
+    <string id="groupContact1Title">Contact 1</string>
+    <string id="groupContact1Description">Configure name and mobile number for contact 1</string>
+    <string id="groupContact2Title">Contact 2</string>
+    <string id="groupContact2Description">Configure name and mobile number for contact 2</string>
+    <string id="groupContact3Title">Contact 3</string>
+    <string id="groupContact3Description">Configure name and mobile number for contact 3</string>
+    <string id="groupContact4Title">Contact 4</string>
+    <string id="groupContact4Description">Configure name and mobile number for contact 4</string>
+    <string id="groupContact5Title">Contact 5</string>
+    <string id="groupContact5Description">Configure name and mobile number for contact 5</string>
+    <string id="groupContact6Title">Contact 6</string>
+    <string id="groupContact6Description">Configure name and mobile number for contact 6</string>
+    <string id="groupContact7Title">Contact 7</string>
+    <string id="groupContact7Description">Configure name and mobile number for contact 7</string>
+    <string id="groupContact8Title">Contact 8</string>
+    <string id="groupContact8Description">Configure name and mobile number for contact 8</string>
+    <string id="groupContact9Title">Contact 9</string>
+    <string id="groupContact9Description">Configure name and mobile number for contact 9</string>
+    <string id="groupContact10Title">Contact 10</string>
+    <string id="groupContact10Description">Configure name and mobile number for contact 10</string>
+    <string id="contactNameTitle">Contact Name</string>
+    <string id="contactNamePrompt">Enter the name of contact</string>
+    <string id="contactNameError">Invalid name</string>
+    <string id="contactMobileNumberTitle">Contact Mobile Number</string>
+    <string id="contactMobileNumberPrompt">Enter the mobile number of the contact</string>
+    <string id="contactMobileNumberError">Invalid mobile number</string>
+</strings>

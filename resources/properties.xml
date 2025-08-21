@@ -1,0 +1,24 @@
+<properties>
+	<property id="contact-0-name" type="string"></property>
+	<property id="contact-0-mobile-number" type="string"></property>
+	<property id="contact-1-name" type="string"></property>
+	<property id="contact-1-mobile-number" type="string"></property>
+	<property id="contact-2-name" type="string"></property>
+	<property id="contact-2-mobile-number" type="string"></property>
+	<property id="contact-3-name" type="string"></property>
+	<property id="contact-3-mobile-number" type="string"></property>
+	<property id="contact-4-name" type="string"></property>
+	<property id="contact-4-mobile-number" type="string"></property>
+	<property id="contact-5-name" type="string"></property>
+	<property id="contact-5-mobile-number" type="string"></property>
+	<property id="contact-6-name" type="string"></property>
+	<property id="contact-6-mobile-number" type="string"></property>
+	<property id="contact-7-name" type="string"></property>
+	<property id="contact-7-mobile-number" type="string"></property>
+	<property id="contact-8-name" type="string"></property>
+	<property id="contact-8-mobile-number" type="string"></property>
+	<property id="contact-9-name" type="string"></property>
+	<property id="contact-9-mobile-number" type="string"></property>
+	<property id="contact-10-name" type="string"></property>
+	<property id="contact-10-mobile-number" type="string"></property>
+</properties>
