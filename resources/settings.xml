@@ -1,90 +1,68 @@
 <settings>
-    <group id="group-contact-0" title="@Strings.groupContact0Title" description="@Strings.groupContact0Description">
-        <setting propertyKey="@Properties.contact-0-name" title="@Strings.contactNameTitle" prompt="@Strings.contactNamePrompt"> 
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
-        </setting>
-        <setting propertyKey="@Properties.contact-0-mobile-number" title="@Strings.contactMobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
-        </setting>
-    </group>
-    <group id="group-contact-1" title="@Strings.groupContact1Title" description="@Strings.groupContact1Description">
-        <setting propertyKey="@Properties.contact-1-name" title="@Strings.contactNameTitle" prompt="@Strings.contactNamePrompt"> 
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
-        </setting>
-        <setting propertyKey="@Properties.contact-1-mobile-number" title="@Strings.contactMobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
-        </setting>
-    </group>
-    <group id="group-contact-2" title="@Strings.groupContact2Title" description="@Strings.groupContact2Description">
-        <setting propertyKey="@Properties.contact-2-name" title="@Strings.contactNameTitle" prompt="@Strings.contactNamePrompt"> 
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
-        </setting>
-        <setting propertyKey="@Properties.contact-2-mobile-number" title="@Strings.contactMobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
-        </setting>
-    </group>
-    <group id="group-contact-3" title="@Strings.groupContact3Title" description="@Strings.groupContact3Description">
-        <setting propertyKey="@Properties.contact-3-name" title="@Strings.contactNameTitle" prompt="@Strings.contactNamePrompt"> 
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
-        </setting>
-        <setting propertyKey="@Properties.contact-3-mobile-number" title="@Strings.contactMobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
-        </setting>
-    </group>
-    <group id="group-contact-4" title="@Strings.groupContact4Title" description="@Strings.groupContact4Description">
-        <setting propertyKey="@Properties.contact-4-name" title="@Strings.contactNameTitle" prompt="@Strings.contactNamePrompt"> 
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
-        </setting>
-        <setting propertyKey="@Properties.contact-4-mobile-number" title="@Strings.contactMobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
-        </setting>
-    </group>
-    <group id="group-contact-5" title="@Strings.groupContact5Title" description="@Strings.groupContact5Description">
-        <setting propertyKey="@Properties.contact-5-name" title="@Strings.contactNameTitle" prompt="@Strings.contactNamePrompt"> 
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
-        </setting>
-        <setting propertyKey="@Properties.contact-5-mobile-number" title="@Strings.contactMobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
-        </setting>
-    </group>
-    <group id="group-contact-6" title="@Strings.groupContact6Title" description="@Strings.groupContact6Description">
-        <setting propertyKey="@Properties.contact-6-name" title="@Strings.contactNameTitle" prompt="@Strings.contactNamePrompt"> 
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
-        </setting>
-        <setting propertyKey="@Properties.contact-6-mobile-number" title="@Strings.contactMobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
-        </setting>
-    </group>
-    <group id="group-contact-7" title="@Strings.groupContact7Title" description="@Strings.groupContact7Description">
-        <setting propertyKey="@Properties.contact-7-name" title="@Strings.contactNameTitle" prompt="@Strings.contactNamePrompt"> 
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
-        </setting>
-        <setting propertyKey="@Properties.contact-7-mobile-number" title="@Strings.contactMobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
-        </setting>
-    </group>
-    <group id="group-contact-8" title="@Strings.groupContact8Title" description="@Strings.groupContact8Description">
-        <setting propertyKey="@Properties.contact-8-name" title="@Strings.contactNameTitle" prompt="@Strings.contactNamePrompt"> 
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
-        </setting>
-        <setting propertyKey="@Properties.contact-8-mobile-number" title="@Strings.contactMobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
-        </setting>
-    </group>
-    <group id="group-contact-9" title="@Strings.groupContact9Title" description="@Strings.groupContact9Description">
-        <setting propertyKey="@Properties.contact-9-name" title="@Strings.contactNameTitle" prompt="@Strings.contactNamePrompt"> 
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
-        </setting>
-        <setting propertyKey="@Properties.contact-9-mobile-number" title="@Strings.contactMobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
-        </setting>
-    </group>
-    <group id="group-contact-10" title="@Strings.groupContact10Title" description="@Strings.groupContact10Description">
-        <setting propertyKey="@Properties.contact-10-name" title="@Strings.contactNameTitle" prompt="@Strings.contactNamePrompt"> 
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
-        </setting>
-        <setting propertyKey="@Properties.contact-10-mobile-number" title="@Strings.contactMobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
-            <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
-        </setting>
-    </group>
+    <setting propertyKey="@Properties.contact-0-name" title="@Strings.contact0NameTitle" prompt="@Strings.contactNamePrompt"> 
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-0-mobile-number" title="@Strings.contact0MobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-1-name" title="@Strings.contact1NameTitle" prompt="@Strings.contactNamePrompt"> 
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-1-mobile-number" title="@Strings.contact1MobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-2-name" title="@Strings.contact2NameTitle" prompt="@Strings.contactNamePrompt"> 
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-2-mobile-number" title="@Strings.contact2MobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-3-name" title="@Strings.contact3NameTitle" prompt="@Strings.contactNamePrompt"> 
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-3-mobile-number" title="@Strings.contact3MobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-4-name" title="@Strings.contact4NameTitle" prompt="@Strings.contactNamePrompt"> 
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-4-mobile-number" title="@Strings.contact4MobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-5-name" title="@Strings.contact5NameTitle" prompt="@Strings.contactNamePrompt"> 
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-5-mobile-number" title="@Strings.contact5MobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-6-name" title="@Strings.contact6NameTitle" prompt="@Strings.contactNamePrompt"> 
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-6-mobile-number" title="@Strings.contact6MobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-7-name" title="@Strings.contact7NameTitle" prompt="@Strings.contactNamePrompt"> 
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-7-mobile-number" title="@Strings.contact7MobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-8-name" title="@Strings.contact8NameTitle" prompt="@Strings.contactNamePrompt"> 
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-8-mobile-number" title="@Strings.contact8MobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-9-name" title="@Strings.contact9NameTitle" prompt="@Strings.contactNamePrompt"> 
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-9-mobile-number" title="@Strings.contact9MobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-10-name" title="@Strings.contact10NameTitle" prompt="@Strings.contactNamePrompt"> 
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactNameError"/>
+    </setting>
+    <setting propertyKey="@Properties.contact-10-mobile-number" title="@Strings.contact10MobileNumberTitle" prompt="@Strings.contactMobileNumberPrompt">
+        <settingConfig type="alphaNumeric" errorMessage="@Strings.contactMobileNumberError"/>
+    </setting>
 </settings>
