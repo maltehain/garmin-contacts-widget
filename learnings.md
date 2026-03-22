@@ -33,3 +33,17 @@ Use the `Monkey C: Open Samples Folder` in VS Code to check samples to different
 - Implemented by using [`./resources/properties.xml`](./resources/properties.xml) and [`./resources/settings.xml`](./resources/settings.xml)
 - Change in Connect IQ Device Simulator via: `File > Edit Persistent Storage > Edit Application.Properties data`
 - Documentation: https://developer.garmin.com/connect-iq/core-topics/properties-and-app-settings/
+
+## Publish a new version
+
+In VS Code with the Monkey C extension installed:
+
+1. Open the Command Palette: `Cmd + Shift + P`
+2. Type and select: `Monkey C: Export Project`
+3. Choose a signing key (you'll need your Connect IQ developer key — if you don't have one, the
+   extension will prompt you to generate one)
+4. The .iq file will be generated in your project directory
+
+That's it. The .iq file is what you upload to the [Connect IQ Store dashboard](https://apps.garmin.com/developer/dashboard).
+
+During the upload add a meaningful version changelog entry in "What’s New".
