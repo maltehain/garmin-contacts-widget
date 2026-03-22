@@ -14,7 +14,6 @@ class BehaviorDelegate extends WatchUi.BehaviorDelegate {
     //! @return true if handled, false otherwise
     public function onSelect() as Boolean {
         _parentView.onSelectPress();
-        System.println("Select Pressed");
         return true;
     }
 

@@ -1,7 +1,11 @@
 import Toybox.Graphics;
 import Toybox.WatchUi;
 import Toybox.Application;
+import Toybox.Application.Storage;
 import Toybox.Lang;
+
+const MAX_CONTACTS = 11;
+const STORAGE_KEY_INDEX = "contactsIndex";
 
 class contacts_widgetView extends WatchUi.View {
 
@@ -10,14 +14,18 @@ class contacts_widgetView extends WatchUi.View {
 
     function initialize() {
         View.initialize();
+        var storedIndex = Storage.getValue(STORAGE_KEY_INDEX);
+        if (storedIndex != null) {
+            contactsIndex = storedIndex as Number;
+        }
     }
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
-        
+
         // Load contacts from properties
         contactsList = [];
-        for (var i = 0; i <= 10; i += 1) {
+        for (var i = 0; i < MAX_CONTACTS; i += 1) {
             var name = Properties.getValue("contact-" + i + "-name");
             var mobileNumber = Properties.getValue("contact-" + i + "-mobile-number");
             if ((name != null && name.length() != 0) || (mobileNumber != null && mobileNumber.length() != 0)) {
@@ -31,8 +39,12 @@ class contacts_widgetView extends WatchUi.View {
         dc.clear();
 
         if (contactsList.size() == 0) {
+            contactsIndex = 0;
             drawConfigurationHint(dc);
         }else{
+            if (contactsIndex >= contactsList.size()) {
+                contactsIndex = 0;
+            }
             drawContact(dc, contactsIndex);
         }
     }
@@ -55,6 +67,7 @@ class contacts_widgetView extends WatchUi.View {
         if (contactsIndex >= contactsList.size()) {
             contactsIndex = 0;
         }
+        Storage.setValue(STORAGE_KEY_INDEX, contactsIndex);
         WatchUi.requestUpdate();
     }
 
